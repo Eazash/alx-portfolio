@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-dispaly: auto;
+  src: local("Nunito"), url("/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf");
+}
