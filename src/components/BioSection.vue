@@ -2,7 +2,7 @@
   import SectionTitle from './SectionTitle.vue';
 </script>
 <template>
-  <section id="bio" class="p-2 my-6 bg-slate-50">
+  <section id="bio" class="px-2 py-8 bg-slate-50">
     <SectionTitle title="Bio" />
     <div class="max-w-xl m-auto flex flex-col justify-center items-center  md:flex-row md:justify-evenly gap-4">
       <div class="md:sticky md:top-12 md:self-start basis-full md:basis-1/3">
