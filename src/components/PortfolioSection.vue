@@ -1,12 +1,12 @@
+<script setup lang="ts">
+  import SectionTitle from './SectionTitle.vue';
+</script>
 <template>
   <section id="portfolio" class="py-4 my-2 bg-slate-200">
-    <d class="flex flex-col w-100 justify-center items-center my-2">
-      <h2 class="grow-0 text-6xl text-center text-blue-400 border-b-2 border-blue-400">My Portfolio</h2>
-      <p class="text-lg text-center">My past experiences</p>
-    </d>
+    <SectionTitle title="My Portfolio" subtitle="My Past Experiences" />
     <div class="h-full max-w-xl m-auto flex flex-col justify-center gap-4">
       <div class="bg-slate-200 p-2">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mKtEfAiL4Qc" title="YouTube video player"
+        <iframe src="https://www.youtube.com/embed/mKtEfAiL4Qc" title="YouTube video player" class="w-full" height="315"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen></iframe>

@@ -2,8 +2,8 @@
   import NavLink from './NavLink.vue';
 </script>
 <template>
-  <nav class="z-10 bg-black-30 backdrop-blur-lg top-0 sticky">
-    <ul class="flex items-center justify-end p-6 shadow-sm bg-transparent h-8">
+  <nav class="z-10 bg-slate-300 top-0 sticky">
+    <ul class="flex items-center justify-end p-6 shadow-sm h-8">
       <NavLink href="#" text="Home" />
       <NavLink href="#bio" text="Bio" />
       <NavLink href="#pitch" text="Elevator Pitch" />

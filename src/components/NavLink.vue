@@ -3,7 +3,7 @@
 </script>
 <template>
   <li
-    class="mx-4 active:border-b-2 active:border-b-blue-400 hover:border-b-2 hover:border-b-blue-400 transition duration-200 ease-in-out">
+    class="mx-2 md:mx-4 active:border-b-2 active:border-b-blue-400 hover:border-b-2 hover:border-b-blue-400 transition duration-200 ease-in-out">
     <a :href="href" class="text-blue-400 hover:text-blue-400">{{ text }}</a>
   </li>
 </template>

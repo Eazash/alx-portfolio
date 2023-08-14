@@ -1,10 +1,11 @@
+<script setup lang="ts">
+  import SectionTitle from './SectionTitle.vue';
+</script>
 <template>
-  <section id="bio" class="py-2 my-6 bg-slate-50">
-    <div class="w-100 flex justify-center flex-row my-4 pt-8">
-      <h2 class="text-6xl font-bold text-blue-400 border-b-4 border-blue-400">Bio</h2>
-    </div>
-    <div class="max-w-xl m-auto flex flex-row justify-evenly gap-4">
-      <div class="sticky top-12 self-start basis-full md:basis-1/3">
+  <section id="bio" class="p-2 my-6 bg-slate-50">
+    <SectionTitle title="Bio" />
+    <div class="max-w-xl m-auto flex flex-col justify-center items-center  md:flex-row md:justify-evenly gap-4">
+      <div class="md:sticky md:top-12 md:self-start basis-full md:basis-1/3">
         <img src="/mugshot.png" alt="Mugshot Image"
           class="object-contain inline-block h-50 w-50 rounded-md ring-2 ring-white">
       </div>
