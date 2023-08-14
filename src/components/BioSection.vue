@@ -5,7 +5,7 @@
   <section id="bio" class="px-2 py-8 bg-slate-50">
     <SectionTitle title="Bio" />
     <div class="max-w-xl m-auto flex flex-col justify-center items-center  md:flex-row md:justify-evenly gap-4">
-      <div class="md:sticky md:top-12 md:self-start basis-full md:basis-1/3">
+      <div class="md:sticky md:top-16 md:self-start basis-full md:basis-1/3">
         <img src="/mugshot.png" alt="Mugshot Image"
           class="object-contain inline-block h-50 w-50 rounded-md ring-2 ring-white">
       </div>
